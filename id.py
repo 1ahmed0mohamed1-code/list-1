@@ -11,4 +11,8 @@ def id():
     specialty = input("enter your specialty: ")
     z = {"name":name,"code":code,"specialty":specialty}
     print(z)
+    idlist.append(z)
+    print(idlist)
+    
+
 id()
